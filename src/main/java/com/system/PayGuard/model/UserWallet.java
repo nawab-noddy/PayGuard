@@ -24,6 +24,6 @@ public class UserWallet {
     @Column(nullable = false)
     private BigDecimal balance;
 
-    @Version // Most Important for this project
+    @Version // Most Important for this project use for the concurrent request
     private Long version;
 }
